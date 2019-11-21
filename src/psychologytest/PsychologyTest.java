@@ -22,9 +22,7 @@ public class PsychologyTest {
         Scanner keyedInput = new Scanner(System.in);
         
         int choice = 0;
-        double base = 0;
-        double ans;
-        double power;
+        int ans;
         
         while ( choice != 4 )
         {
@@ -67,18 +65,29 @@ public class PsychologyTest {
                     
                     System.out.println("");
                     System.out.println("");
-                    System.out.println("---Result---");
-                    System.out.println("");
-                    System.out.println("1. A person whose  riding at lion");
-                    System.out.println("You are \"Respecting\" that person because you are riding a ferocious and strong one like a lion.");
-                    System.out.println("");
-                    System.out.println("2. A person in a lion's cage");
-                    System.out.println("You \"hate\" this person because that person is in a position where the lion can eat it.");
-                    System.out.println("");
-                    System.out.println("3. A person watching from outside");
-                    System.out.println("You think that person who is looking at cage is the same position as you. So, you \" don't care \" that person.");
-                    System.out.println("");
-                    System.out.println("--------------------------------------------------------------------");
+                    
+                    System.out.println("Enter 0 to ↓ show Result.");
+                    
+                    ans = keyedInput.nextInt();
+                    
+                    if ( ans == 0)
+                    {
+                        System.out.println("");
+                        System.out.println("");
+                        System.out.println("---Result---");
+                        System.out.println("");
+                        System.out.println("1. A person whose  riding at lion");
+                        System.out.println("You are \"Respecting\" that person because you are riding a ferocious and strong one like a lion.");
+                        System.out.println("");
+                        System.out.println("2. A person in a lion's cage");
+                        System.out.println("You \"hate\" this person because that person is in a position where the lion can eat it.");
+                        System.out.println("");
+                        System.out.println("3. A person watching from outside");
+                        System.out.println("You think that person who is looking at cage is the same position as you. So, you \" don't care \" that person.");
+                        System.out.println("");
+                        System.out.println("--------------------------------------------------------------------");
+                    }
+                    
                 
                 }
             
@@ -103,20 +112,28 @@ public class PsychologyTest {
                     System.out.println("n");
                     System.out.println("k");
                     
-                    System.out.println("");
-                    System.out.println("");
-                    System.out.println("---Result---");
-                    System.out.println("");
-                    System.out.println("That place is where you care most.");
-                    System.out.println("");
-                    System.out.println("--------------------------------------------------------------------");
+                    System.out.println("Enter 0 to ↓ show Result.");
+                    
+                    ans = keyedInput.nextInt();
+                    
+                    if ( ans == 0)
+                    {
+                        System.out.println("");
+                        System.out.println("");
+                        System.out.println("---Result---");
+                        System.out.println("");
+                        System.out.println("That place is where you care most.");
+                        System.out.println("");
+                        System.out.println("--------------------------------------------------------------------");
+                    }
+                    
                 
                 }
             
             
             if ( choice == 3 )
                 {
-                    System.out.println("【Question2】");
+                    System.out.println("【Question3】");
                     System.out.println("When you were walking down the road, you met three kinds of animals. List the types of animals and their personality in the order they are encountered.");
                     System.out.println("");
                     System.out.println("");
@@ -134,13 +151,22 @@ public class PsychologyTest {
                     System.out.println("n");
                     System.out.println("k");
                     
-                    System.out.println("");
-                    System.out.println("");
-                    System.out.println("---Result---");
-                    System.out.println("");
-                    System.out.println("That place is where you care most.");
-                    System.out.println("");
-                    System.out.println("--------------------------------------------------------------------");
+                    
+                    System.out.println("Enter 0 to ↓ show Result.");
+                    
+                    ans = keyedInput.nextInt();
+                    
+                    if ( ans == 0)
+                    {
+                        System.out.println("");
+                        System.out.println("");
+                        System.out.println("---Result---");
+                        System.out.println("");
+                        System.out.println("That place is where you care most.");
+                        System.out.println("");
+                        System.out.println("--------------------------------------------------------------------");
+                    }
+                    
                 
                 }
         }    
